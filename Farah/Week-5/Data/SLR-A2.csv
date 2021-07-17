@@ -1,0 +1,34 @@
+"Data for the report ""Global and Regional Sea Level Rise Scenarios for the United States""",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Suggested Citation:,,,,,,,,,,,,,,,,,,,
+"Sweet, W.V., R.E. Kopp, C. P. Weaver, J. Obeysekera, R. M. Horton, E.R. Thieler and C. Zervas (2017), Global and Regional Sea Level Rise Scenarios for the United States. NOAA Tech. Rep. NOS CO-OPS 83.",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Descriptions of Data Columns:,,,,,,,,,,,,,,,,,,,
+"A) Site: Site name, specified as Global Mean Sea Level (GMSL), as the name of specific tide gauge location, or as grid_lat_long for points on a gridded basis.",,,,,,,,,,,,,,,,,,,
+"B) PSMSL ID: for GMSL, 0; for tide gauge locations, the Permenant Service for Mean Sea Level (http://www.psmsl.org/) Tide Gauge Identification (ID) Number; for grid points, 109 + 105 * colatitude + longitude",,,,,,,,,,,,,,,,,,,
+C) Latitude of location or grid,,,,,,,,,,,,,,,,,,,
+D) Longitude of location or grid,,,,,,,,,,,,,,,,,,,
+"E) Scenario: For each of the six GMSL scenarios (identified by the height in meters in 2100), there is a low, medium and high sub-scenario, corresponding to the 17th, 50th, and 83rd percentile of the climate-related sea level projections consistent with t",,,,,,,,,,,,,,,,,,,
+"F) Background RSL rate (mm/yr): Applied as a constant linear trend. The mean estimate, mean estimate - 1 standard deviation, and mean estimate + 1 standard deviation are respectively applied to the  medium, low and high sub-scenarios.",,,,,,,,,,,,,,,,,,,
+"G-T) Relative Sea level (RSL) rise: GMSL scenario rise amounts and associated RSL changes (both in cm) projected at tide gauge and grid locations by decade from 2000 to 2100 and also for years 2120, 2150 and 2200.",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Site,PSMSL ID,Latitude,Longitude,Scenario,Background RSL rate (mm/yr),RSL in 2000 (cm),RSL in 2010 (cm),RSL in 2020 (cm),RSL in 2030 (cm),RSL in 2040 (cm),RSL in 2050 (cm),RSL in 2060 (cm),RSL in 2070 (cm),RSL in 2080 (cm),RSL in 2090 (cm),RSL in 2100 (cm),RSL in 2120 (cm),RSL in 2150 (cm),RSL in 2200 (cm)
+NEW YORK,12,54.080777,23.8926,0.3 - MED,1.29,0,5,11,15,20,25,31,36,39,44,46,51,58,69
+NEW YORK,12,54.080777,23.8926,0.3 - LOW,1.2,0,2,6,10,13,15,18,19,21,21,22,27,28,26
+NEW YORK,12,54.080777,23.8926,0.3 - HIGH,1.38,0,7,14,21,28,36,42,49,54,60,65,75,88,110
+NEW YORK,12,54.080777,23.8926,0.5 - MED,1.29,0,6,13,19,25,31,39,45,50,56,61,70,85,110
+NEW YORK,12,54.080777,23.8926,0.5 - LOW,1.2,0,4,8,13,18,24,29,33,39,43,47,54,63,70
+NEW YORK,12,54.080777,23.8926,0.5 - HIGH,1.38,0,7,16,23,31,39,47,54,60,66,72,85,106,145
+NEW YORK,12,54.080777,23.8926,1.0 - MED,1.29,0,9,19,29,39,51,65,80,96,114,130,148,202,295
+NEW YORK,12,54.080777,23.8926,1.0 - LOW,1.2,0,6,12,21,29,40,52,64,78,92,106,122,167,240
+NEW YORK,12,54.080777,23.8926,1.0 - HIGH,1.38,0,11,23,34,47,60,76,93,111,130,150,176,238,359
+NEW YORK,12,54.080777,23.8926,1.5 - MED,1.29,0,12,25,39,53,71,92,114,139,167,197,247,353,567
+NEW YORK,12,54.080777,23.8926,1.5 - LOW,1.2,0,7,14,24,36,51,68,87,108,130,154,195,281,442
+NEW YORK,12,54.080777,23.8926,1.5 - HIGH,1.38,0,15,31,45,61,80,104,130,159,191,225,297,420,673
+NEW YORK,12,54.080777,23.8926,2.0 - MED,1.29,0,14,31,48,67,92,124,154,189,234,279,368,561,926
+NEW YORK,12,54.080777,23.8926,2.0 - LOW,1.2,0,13,25,43,63,85,107,134,168,205,248,334,493,826
+NEW YORK,12,54.080777,23.8926,2.0 - HIGH,1.38,0,17,35,53,75,100,130,166,206,250,298,405,586,958
+NEW YORK,12,54.080777,23.8926,2.5 - MED,1.29,0,14,29,50,76,105,144,185,230,286,342,459,695,1139
+NEW YORK,12,54.080777,23.8926,2.5 - LOW,1.2,0,6,14,28,45,68,97,130,170,214,262,373,574,1011
+NEW YORK,12,54.080777,23.8926,2.5 - HIGH,1.38,0,15,33,55,82,114,150,194,241,296,357,530,772,1237
